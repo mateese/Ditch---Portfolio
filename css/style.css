@@ -195,6 +195,9 @@ body {
     max-width: 478px;
 }
 @media (max-width: 1000px){
+    .creative {
+        margin-top: 100px;
+    }
     .creative__inner {
         display: flex;
         flex-wrap: wrap; 
@@ -213,6 +216,9 @@ body {
         flex-basis: 478px;
         max-width: 100%; 
         margin-top: 30px;
+    }
+    .creative__buttons {
+        margin: 40px 0px 50px;
     }
 }
 @media (max-width: 440px){
@@ -285,8 +291,11 @@ body {
     margin-left: 5px;
 }
 @media (max-width: 955px){
+    .skills {
+        margin-top: 120px;
+    }
     .skills__title {
-        margin-bottom: 90px;
+        margin-bottom: 60px;
     }
     .title {
         font-size: 38px;
